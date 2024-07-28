@@ -13,6 +13,8 @@ import java.util.function.Function;
 
 @Component
 public class JwtTokenUtil {
+    //Classe que implementa a interface AuthenticationEntryPoint para lidar com exceções de autenticação
+    // e gerar tokens JWT de acordo com as credenciais do usuário
 
     private final String SECRET_KEY = "SecretKeyToGenJWTs";
 

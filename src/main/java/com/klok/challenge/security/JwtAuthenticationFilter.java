@@ -17,6 +17,7 @@ import java.io.IOException;
 
 @Component
 public class JwtAuthenticationFilter extends OncePerRequestFilter {
+    //Classe usada para filtrar requisições e autenticar usuários com base em um token JWT
 
     private final UserDetailsServiceImpl userDetailsService;
     private static final String SECRET_KEY = "SecretKeyToGenJWTs";
