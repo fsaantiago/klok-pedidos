@@ -1,3 +1,5 @@
+![Klok](images/logo-klok-tech.png)
+
 # Desafio Klok - Refatoração PedidoService
 
 ### Este projeto é uma aplicação de gerenciamento de pedidos desenvolvida em Spring Boot. A aplicação permite criar, listar e obter pedidos, com autenticação baseada em JWT. O código foi refatorado para melhorar a legibilidade, manutenção e eficiência, garantindo que a lógica de negócios seja clara e bem organizada.
